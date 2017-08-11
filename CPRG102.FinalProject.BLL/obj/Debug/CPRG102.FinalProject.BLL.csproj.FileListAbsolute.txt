@@ -1,0 +1,14 @@
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\bin\Debug\CPRG102.FinalProject.BLL.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\bin\Debug\CPRG102.FinalProject.BLL.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\obj\Debug\CPRG102.FinalProject.BLL.csprojResolveAssemblyReference.cache
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\obj\Debug\CPRG102.FinalProject.BLL.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\obj\Debug\CPRG102.FinalProject.BLL.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\bin\Debug\CPRG102.FinalProject.Data.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\bin\Debug\CPRG102.FinalProject.Data.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\bin\Debug\EntityFramework.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\bin\Debug\CPRG102.FinalProject.Domain.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\bin\Debug\CPRG102.FinalProject.Data.dll.config
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\bin\Debug\EntityFramework.xml
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\bin\Debug\CPRG102.FinalProject.Domain.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.BLL\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,41 @@
+﻿@model CPRG102.FinalProject.AssetTracking.ViewModels.NewAssetViewModel
+
+@{
+    ViewBag.Title = "New Asset";
+}
+
+<h2>Add New Asset</h2>
+<hr class="style-eight" /> <br />
+<center>
+    <div class="container">
+        <div class="well-sm">
+            <form method="post" action="NewAsset/ProcessData">
+                <table class="table table-striped table-hover table-bordered" style="width:500px">
+                    <tr>
+                        <td style="width:200px"> </td>
+                        <td style="width:300px;text-align:center" class="text-primary"> OPTIONS </td>
+                    </tr>
+                    <tr>
+                        <td class="rowNewAssetDropType text-primary">Type: </td>
+                        <td class="rowNewAssetDropDown"> @Html.DropDownList("AssetTypes", Model.AssetType, new { style = "width:200px;" }) </td>
+                    </tr>
+                    <tr>
+                        <td class="rowNewAssetDropType text-primary"> Manufacturer: </td>
+                        <td class="rowNewAssetDropDown"> @Html.DropDownList("Manufacturer", Model.Manufacturer, new { style = "width:200px;" }) </td>
+                    </tr>
+                    <tr>
+                        <td class="rowNewAssetDropType text-primary"> Model: </td>
+                        <td class="rowNewAssetDropDown"> @Html.DropDownList("Model", Model.Model, new { style = "width:200px;" }) </td>
+                    </tr>
+                    <tr>
+                        <td class="rowNewAssetDropType text-primary"> Employee: </td>
+                        <td class="rowNewAssetDropDown"> @Html.DropDownList("Employee", Model.Employees, new { style = "width:200px;" }) </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center"><input type="Submit" value="Submit" class="btn-default"/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</center>

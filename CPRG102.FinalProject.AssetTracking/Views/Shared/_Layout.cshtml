@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/knockout-3.4.2.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <style>
+        hr.style-eight {
+            padding: 0;
+            border: none;
+            border-top: medium double #333;
+            color: #333;
+            text-align: center;
+        }
+       hr.style-eight:after {
+                content: "§";
+                display: inline-block;
+                position: relative;
+                top: -0.7em;
+                font-size: 1.5em;
+                padding: 0 0.25em;
+                background: white;
+            }
+        .rowNewAssetDropDown {
+            width: 300px;
+            height: 50px;
+            vertical-align: middle;
+            text-align: center
+        }
+        .rowNewAssetDropType {
+            width: 200px;
+            height: 50px;
+            vertical-align: middle
+        }
+    </style>
+</head>
+<body> 
+    <div id="image" style="width:100%;">
+        <div>
+            <img src="~/Images/tech2.png" width="110" height="110" style=" float:right;margin: 15px 80px 15px 15px"/>
+        </div>
+    </div>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Asset Tracking Application", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })                
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li> @Html.ActionLink("Home", "Index", "Home") </li>
+                    <li> @Html.ActionLink("New Asset", "Index", "NewAsset") </li>
+                    <li> @Html.ActionLink("Assignments", "Index", "Assignment") </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br /><br /> <br /> 
+    <div class="container body-content">
+        @RenderBody()
+        <hr />      
+    </div>
+
+ 
+    <div id="footer">      
+        <div class="wrap">
+            <p>&copy; @DateTime.Now.Year - CPRG-102 Asset Tracking Application Final Project </p>   
+        </div>
+    </div>
+
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

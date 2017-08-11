@@ -1,0 +1,14 @@
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\bin\Debug\CPRG102.FinalProject.Data.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\bin\Debug\CPRG102.FinalProject.Data.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\obj\Debug\CPRG102.FinalProject.Data.csprojResolveAssemblyReference.cache
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\obj\Debug\CPRG102.FinalProject.Data.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\obj\Debug\CPRG102.FinalProject.Data.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\bin\Debug\CPRG102.FinalProject.Domain.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\bin\Debug\CPRG102.FinalProject.Domain.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\bin\Debug\CPRG102.FinalProject.Data.dll.config
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\bin\Debug\EntityFramework.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\bin\Debug\EntityFramework.xml
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\obj\Debug\CPRG102.FinalProject.Data.Migrations.InitialSetup.resources
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Data\obj\Debug\CPRG102.FinalProject.Data.csproj.GenerateResource.Cache

@@ -1,0 +1,63 @@
+﻿@model  CPRG102.FinalProject.AssetTracking.ViewModels.AssignmentViewModel
+
+@{
+    ViewBag.Title = "Asset Asignment";
+}
+
+<h2> Asset Assignment </h2>
+<hr class="style-eight" /> <br />
+<div class="container">
+    <form action="Assignment/ProcessData" method="post">
+        <div class="row">
+            <div class="col-md-4">
+                <h5 class="text-primary"> Employee List (those who have no asset) </h5>
+                <div>
+                    @Html.ListBox("Employees", Model.UnassignedEmployees, new { id = "Employees", size = "10", style="width:500px" })
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5 class="text-primary"> Asset Type List </h5>
+                <div>
+                    @Html.DropDownList("AssetTypes",Model.AssetType, new { style = "width:200px;" })
+                </div> 
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <h5 class="text-primary"> Unassigned Asset List </h5>
+                    <select id="Assets" style="width:250px">
+                        <option> Select an asset </option>
+                    </select>                  
+                </div>
+                <br /> <br /><br /><br />
+                <input type="submit" value="Submit" class="btn-primary" />                            
+            </div>
+        </div>
+    </form>
+</div>
+
+<script src="~/Scripts/jquery-3.1.1.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var dropdown = document.getElementById("Assets");
+        $("#AssetTypes").change(function () {
+            document.getElementById("Assets").innerHTML = "";
+            var selectedType = $(this).val();
+            $.ajax({
+                url: "http://localhost:59710/Assignment/GetAssetByType",
+                data: { id: Number(selectedType) },
+                type: 'GET',
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (index, asset) {
+                        dropdown[dropdown.length] = new Option(asset.Text, asset.Value);
+                    });
+                },
+                error: function () {
+                    alert("Error retrieving data !");
+                }                        
+            });
+        });
+    }); 
+</script>

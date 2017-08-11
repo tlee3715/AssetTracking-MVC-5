@@ -1,0 +1,11 @@
+using System;
+
+namespace CPRG102.FinalProject.HRService.Areas.HelpPage.ModelDescriptions
+{
+    public class ParameterAnnotation
+    {
+        public Attribute AnnotationAttribute { get; set; }
+
+        public string Documentation { get; set; }
+    }
+}

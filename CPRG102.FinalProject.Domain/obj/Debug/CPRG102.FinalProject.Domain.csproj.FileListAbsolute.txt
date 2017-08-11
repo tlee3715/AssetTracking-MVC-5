@@ -1,0 +1,5 @@
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Domain\bin\Debug\CPRG102.FinalProject.Domain.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Domain\bin\Debug\CPRG102.FinalProject.Domain.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Domain\obj\Debug\CPRG102.FinalProject.Domain.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Domain\obj\Debug\CPRG102.FinalProject.Domain.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-102\CPRG102.FinalProject.AssetTracking\CPRG102.FinalProject.Domain\obj\Debug\CPRG102.FinalProject.Domain.csprojResolveAssemblyReference.cache
